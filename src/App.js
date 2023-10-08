@@ -8,9 +8,9 @@ const App = () => {
       <p className="description">
         Let's apply what we just learnt about Continuous Integration (CI) and Continuous Delivery (CD) <br />and set up a deployment pipeline with Github Actions.
       </p>
-      <img src="https://i.pinimg.com/originals/2d/8e/e8/2d8ee815146390d567706f2c7b5c2916.gif" />
+      <img alt="Nyantocat gif" src="https://i.pinimg.com/originals/2d/8e/e8/2d8ee815146390d567706f2c7b5c2916.gif" />
       <div className="cta-container">
-        <a href="https://github.com/caprosset/github-actions-repository/blob/master/docs/02-creating-your-first-github-workflow.md" target="_blank" className="cta-button">
+        <a href="https://github.com/caprosset/github-actions-repository/blob/master/docs/02-creating-your-first-github-workflow.md" target="_blank" rel="noreferrer" className="cta-button">
           Get Started
         </a>
       </div>
