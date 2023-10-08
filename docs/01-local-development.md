@@ -1,7 +1,9 @@
 # Lab 1: Local development workflow
 
 ## 1.1 - Installing the application dependencies
-Once you've forked and cloned this repository on your computer, navigate to the root directory of the application and install all project dependencies using:
+Once you've forked and cloned this repository on your computer, navigate to the root directory of the application and open the project in your code editor (for example, VS Code with `code .`).    
+
+In the terminal of your code editor, install all project dependencies using:
 ```sh
 npm install
 ```
