@@ -50,7 +50,7 @@ jobs:
 
 As you can see, this pipeline will be doing only one thing at the moment: running a "hello world" action which will print "Hello World!" inside the pipeline logs.
 
-*Tip: YAML is a file format that is whitespace-sensitive. To make sure that your YAML is properly indented and avoid any error, you can use an online yaml validator like this one: [https://codebeautify.org/yaml-validator](https://codebeautify.org/yaml-validator).*
+*Tip: YAML is a file format that is whitespace-sensitive. To make sure that your YAML is properly indented and avoid any error, you can use an online yaml validator like this one: [https://jsonformatter.org/yaml-validator](https://jsonformatter.org/yaml-validator).*
 
 
 ### Pipeline Core Concepts

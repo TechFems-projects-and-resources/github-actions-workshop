@@ -40,7 +40,7 @@ jobs:
 
 As you can see, we added a step to build the application and its dependencies with NPM. Finally, we use the upload-artifact Github Action to upload a build artifact that contains the code of the application.
 
-*Tip: YAML is a file format that is whitespace-sensitive. To make sure that your YAML is properly indented and avoid any error, you can use an online yaml validator like this one: [https://codebeautify.org/yaml-validator](https://codebeautify.org/yaml-validator).*
+*Tip: YAML is a file format that is whitespace-sensitive. To make sure that your YAML is properly indented and avoid any error, you can use an online yaml validator like this one: [https://jsonformatter.org/yaml-validator](https://jsonformatter.org/yaml-validator).*
 
 &nbsp; 
 

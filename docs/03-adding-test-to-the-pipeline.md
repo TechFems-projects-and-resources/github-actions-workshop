@@ -33,7 +33,7 @@ jobs:
           npm ci
           npm run test
 ```
-*Tip: YAML is a file format that is whitespace-sensitive. To make sure that your YAML is properly indented and avoid any error, you can use an online yaml validator like this one: [https://codebeautify.org/yaml-validator](https://codebeautify.org/yaml-validator).*
+*Tip: YAML is a file format that is whitespace-sensitive. To make sure that your YAML is properly indented and avoid any error, you can use an online yaml validator like this one: [https://jsonformatter.org/yaml-validator](https://jsonformatter.org/yaml-validator).*
 
 
 ### Pipeline Concepts
