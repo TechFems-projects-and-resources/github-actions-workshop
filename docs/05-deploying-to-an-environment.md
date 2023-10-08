@@ -89,8 +89,9 @@ Now check the pipeline execution in the Actions tab. You should see an additiona
 
 ### First, add Firebase setup:
 
-- Install the Firebase CLI if you haven’t already by running `npm install -g firebase-tools`    
-- [Sign up](https://console.firebase.google.com/) for a Firebase account and create a new project     
+- Go [Firebase](https://console.firebase.google.com/) and sign up for a Firebase account
+- Once inside the [Firebase console](https://console.firebase.google.com/), create a new project. Let's call it for example `gh-actions-react-firebase`. Click on “create project” and wait a few seconds until you see it appear in the Firebase console
+- In your terminal, install the Firebase CLI by running `npm install -g firebase-tools`    
 - Run `firebase login:ci` in the terminal and login with your previous created Firebase account
 - Copy token that appears in your console output
 
@@ -98,9 +99,9 @@ Next, we need to set up Firebase in the project folder: run the `firebase init` 
 - Hosting: “Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys”
 - “use an existing project” and choose the Firebase project you created in the previous step
 - agree with database.rules.json being created
-- choose "build" as the public directory
-- select no to the question rewrite all the urls
-  select no for all the other questions
+- enter `build` as the public directory
+- select no to the question "Configure as a single-page app (rewrite all urls to /index.html)"
+- select no for all the other questions
   
 <img width="500" alt="image" src="https://github.com/caprosset/github-actions-repository/assets/12846321/fbea7d5c-c238-4679-aff1-1270c5d6beac">     
 
