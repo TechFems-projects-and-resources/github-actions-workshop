@@ -18,15 +18,18 @@ You don't need to have any previous experience in CI/CD but basic knowledge of G
 
 This application is a [React](https://reactjs.org/)-Application bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and tested with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
 
+This is how the application -that we will deploy on a production environment ([Firebase](https://firebase.google.com/))- looks like:
+
+<img width="500" alt="image" src="https://github.com/CodeWomen-Barcelona/github-actions-workshop/assets/12846321/e4a96a84-be12-430e-85ec-9d55e6100275">
+
 #### Useful commands to build and run the application:
 
 | Description                                               | Command         |
 | --------------------------------------------------------- | --------------- |
 | Installs all the dependencies listed in package.json      | `npm install`   |
 | Builds the app for production to the `build` folder       | `npm run build` |
-| Starts the app by deploy locally the app in dev mode      | `npm start`     |
+| Starts the app by deploying it locally in dev mode        | `npm start`     |
 | Runs the tests for the application                        | `npm test`      |
-| Lint the Code with [ESLint](https://eslint.org/)          | `npm run lint`  |
 
 
 &nbsp; &nbsp;   
@@ -37,7 +40,7 @@ This application is a [React](https://reactjs.org/)-Application bootstrapped wit
 2. Make sure you start by the [Prerequisites section](docs/00-prerequisites.md) to make sure that you have everything we need installed
 3. Run and build the React application following the instructions to [setup your application locally](docs/01-local-development.md) (lab 1)
 4. Understand the basic use of GitHub Actions by [creating your first pipeline](docs/02-creating-your-first-github-workflow.md) (lab 2)
-5. Continue by creating a set of GitHub Actions workflows in order to [test](docs/03-adding-test-to-the-pipeline.md) (lab3), [release](docs/04-building-and-packaging-the-application.md) (lab 4) and [deploy](docs/05-deploying-to-an-environment.md) (lab 5) the application with Firebase!
+5. Continue by creating a set of GitHub Actions workflows in order to [test](docs/03-adding-test-to-the-pipeline.md) (lab3), [release](docs/04-building-and-packaging-the-application.md) (lab 4) and [deploy](docs/05-deploying-to-an-environment.md) (lab 5) the application with [Firebase](https://firebase.google.com/)!
 
 ### Labs: 
 These are the steps you can follow to complete this workshop (order is important):
