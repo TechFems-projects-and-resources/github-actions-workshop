@@ -1,4 +1,4 @@
-# CodeWomen workshop - Automate your deployment process with Github Actions
+# Automate your deployment process with Github Actions
 
 Welcome! This tutorial will guide you through the process of setting up a deployment pipeline with Github Actions from scratch, and help you grasp continuous integration and continuous delivery concepts (CI/CD) in practice.
 
@@ -20,7 +20,7 @@ This application is a [React](https://reactjs.org/)-Application bootstrapped wit
 
 This is how the application -that we will deploy on a production environment ([Firebase](https://firebase.google.com/))- looks like:
 
-<img width="500" alt="image" src="https://github.com/CodeWomen-Barcelona/github-actions-workshop/assets/12846321/e4a96a84-be12-430e-85ec-9d55e6100275">
+<img width="500" alt="image" src="https://github.com/Projects-for-coding-women/github-actions-workshop/assets/12846321/e4a96a84-be12-430e-85ec-9d55e6100275">
 
 #### Useful commands to build and run the application:
 
