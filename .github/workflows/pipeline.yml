@@ -23,3 +23,23 @@ jobs:
         run: |
           npm ci
           npm run test
+  build:
+    name: Build
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Build the application
+        run: |
+          npm ci
+          npm run build
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+         name: react-app-v${{ github.sha }}
+         path: build   
