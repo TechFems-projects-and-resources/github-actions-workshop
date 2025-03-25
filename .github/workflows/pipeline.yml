@@ -38,6 +38,8 @@ jobs:
         run: |
           npm ci
           npm run build
+      - name: Ensure build directory exists
+        run: mkdir -p build
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:
