@@ -14,7 +14,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "deploy:simulate": "./scripts/simulate-deployment.sh"
   },
   "engines" : { 
     "npm" : "9.8.1",
