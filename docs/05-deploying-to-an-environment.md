@@ -62,7 +62,7 @@ jobs:
           with:
             node-version: ${{ env.NODE_VERSION }}
         - name: Download build artifact
-          uses: actions/download-artifact@v3
+          uses: actions/download-artifact@v4.2.1
           with:
             name: react-app-v${{ github.sha }}
             path: build
