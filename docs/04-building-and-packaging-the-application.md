@@ -32,7 +32,7 @@ jobs:
           npm ci
           npm run build
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
          name: react-app-v${{ github.sha }}
          path: build
